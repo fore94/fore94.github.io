@@ -1,0 +1,157 @@
+html{
+    background-image: url("../img/fondo_marino.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header{
+	text-align: center;
+	font-family: monospace;
+	color: black;
+	padding: 20px;
+	/*margin: 40px;
+	/*border: 7px solid blue;*/
+    
+}
+
+header h1 {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    left: 23%;
+    color: white;
+}
+
+header img.cabecera{
+    width: 75%;
+    margin-right: 2%;
+    position: relative;
+    margin-top: -2%;
+}
+
+body{
+	margin: auto;
+    width: 75%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+nav{
+    background-color: #027F93;
+    width: 67%;
+    margin-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -1%;
+}
+
+nav ul{
+    margin: 0;
+    text-align: center;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+section{
+    width: 64%;
+    float: left;
+    
+}
+
+section span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+section p, aside p{
+    text-align: justify;
+    line-height: 26px;
+}
+
+section p#texto_imagen{
+    margin-top: 0;
+    padding: 0;
+    padding-right: 4%;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+}
+
+section img{
+    width: 70%;
+    padding-left: 16%;
+}
+
+section img.gran{
+    width: 50%;
+    padding-left: 22%;
+}
+
+section img.biologia{
+    width: 50%;
+    padding-left: 27%;
+}
+
+
+section table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+section table td{
+    border: 2px solid black;
+    background-color: #E4F0E8;
+}
+
+section table tr th#especie{
+    color:white;
+    background-color: #006080;
+    text-align: center;
+}
+
+aside{
+    width: 24%;
+    float: right;
+    padding-top: 1.5%;
+    padding-right: 6%;
+    padding-bottom: 20%;
+}
+
+
+footer{
+    clear: both;
+    /*background-color: cornflowerblue;*/
+    text-align: right;
+    font-size: 18px;
+}
+
+aside form{
+    color: black;
+    background-color: #027F93;
+    text-align: center;
+    padding: 3%;
+    margin-top: 15%;
+}
+
+aside form input{
+    font-family: monospace;
+}
+
+aside form.buscador input:hover{
+    border-color: blue;
+}
+
