@@ -19,7 +19,7 @@ html,body {
    font-family: 'PoiretOne-Regular';
    src: url(../fonts/PoiretOne-Regular.ttf)format('truetype');
 }
-/*-- header --*/
+/*-- header Aqui si se puede cambiar el color de la barra de arriba de busqueda --*/
 .header-top{
   background: #3D3D3D;
   padding: 1.2em 0;
@@ -143,6 +143,8 @@ html,body {
   font-size: 16px;
   color: #747474;
 }
+
+/*-- Aqui si se puede cambiar el color de la barra de arriba de menú --*/
 .top-nav{
   background: #1CD5B5;
   padding: 1.5em 0;
@@ -173,6 +175,8 @@ display: inline-block;
   -o-transition: .5s all;
   -ms-transition: .5s all;
 }
+
+/*-- Aqui si se puede cambiar el color del borde del menú --*/
 .blue{
   background: #00a78e;
   padding: .2em 0;
@@ -321,7 +325,7 @@ display: inline-block;
   font-weight: 700;
   padding-bottom: .5em;
   text-align: center;
-  color: #1CD5B5;
+  color: #FFF;
   font-family: 'PoiretOne-Regular';
 }
 .grid_4{
