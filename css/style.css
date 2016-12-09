@@ -1,5 +1,4 @@
 /*--
-/*--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -11,9 +10,6 @@ html,body {
 	background:#FFF;
 	font-size:100%;
 }
-<<<<<<< HEAD
-/*-- header --*/
-=======
 @font-face {
    font-family: 'Arimo-Regular';
    src: url(../fonts/Arimo-Regular.ttf)format('truetype');
@@ -22,8 +18,7 @@ html,body {
    font-family: 'PoiretOne-Regular';
    src: url(../fonts/PoiretOne-Regular.ttf)format('truetype');
 }
-/*-- header Aqui si se puede cambiar el color de la barra de arriba de busqueda --*/
->>>>>>> 973771a2532251534de22beb3f12d809679ad6d8
+/*-- header --*/
 .header-top{
   background: #3D3D3D;
   padding: 1.2em 0;
@@ -61,7 +56,7 @@ html,body {
 }
 .header-top-right form input[type="text"] {
 	font-size: 16px;
-	color: 8C8C8;
+	color: #C8C8C8;
 	float: left;
 	outline: none;
 	border: 1px solid #808080;
@@ -84,13 +79,13 @@ html,body {
   float: left;
 }
 .header-middle-logo a{
-  font-family: 'Impact', 'Charcoal', 'Sans-serif';
+  font-family: 'PoiretOne-Regular';
   font-size: 4em;
   text-decoration: none;
-  color: midnightblue;
+  color: #8d9293;
 }
 .header-middle-logo a:hover{
-	color:midnightblue;
+	color:#8d9293;
 	text-decoration:none;
 }
 .header-middle-right{
@@ -98,8 +93,6 @@ html,body {
 	width: 50%;
 	margin-top: .5em;
 }
-<<<<<<< HEAD
-=======
 .phone{
 	float:left;
 }	
@@ -149,49 +142,39 @@ html,body {
   font-size: 16px;
   color: #747474;
 }
-
-/*-- Aqui si se puede cambiar el color de la barra de arriba de menú --*/
->>>>>>> 973771a2532251534de22beb3f12d809679ad6d8
 .top-nav{
-	background:  transparent;
-	padding: 1.5em 0;
-	border-top:orange solid .2em;
+  background: #1CD5B5;
+  padding: 1.5em 0;
 }
-/*.top-nav ul{
+.top-nav ul{
 	padding:0;
 	margin:0;
-}*/
+}
 .top-nav ul li{
 display: inline-block;
   margin: 0;
- float: left;
- 
+  float: left;
 }
 .top-nav ul li a{
-  /*color: #FFF;*/
+  color: #FFF;
   font-size: 18px;
-	font-weight: bold;
   padding: 1.3em 2.8em 1.35em;
   text-decoration: none;
-  padding-left: 80px;
-	font-size: 20px;
 }
 .top-nav ul li a.active{
   background: #00a78e;
 }
 .top-nav ul li a:hover{
-  color: orange;
+  background: #00a78e;
   transition: .5s all;
   -webkit-transition: .5s all;
   -moz-transition: .5s all;
   -o-transition: .5s all;
   -ms-transition: .5s all;
 }
-
-/*-- Aqui si se puede cambiar el color del borde del menú --*/
 .blue{
-  background: orange;
-  padding: .1em 0;
+  background: #00a78e;
+  padding: .2em 0;
 }
 /*-- banner --*/
 .banner{
@@ -337,7 +320,7 @@ display: inline-block;
   font-weight: 700;
   padding-bottom: .5em;
   text-align: center;
-  color: #FFF;
+  color: #1CD5B5;
   font-family: 'PoiretOne-Regular';
 }
 .grid_4{
@@ -1699,17 +1682,11 @@ ul.p_n-list li a:hover{
 }
 .article-grid-left img{
 	width:100%;
-    margin-top: 35px;
-
 }
-
-
-    
-
 .article-grid-right h4{
   font-size: 17px;
   color: #898888;
-  margin-top: 30px;
+  margin: 0;
   line-height: 1.5em;
 }
 .article-grid-right p{
@@ -1761,7 +1738,7 @@ font-size: 23px;
   font-weight: 700;
   padding-bottom: .5em;
   border-bottom: 1px solid #868686;
-  color: #000;
+  color: #1CD5B5;
   font-family: 'PoiretOne-Regular';
 }
 .table-row {
@@ -2034,8 +2011,6 @@ font-size: 23px;
 	.footer-logo {
 	  float: left;
 	  width: 33.33%;
-    
-   
 	}
 	.f-address input[type="text"] {
 		width: 100% !important;
