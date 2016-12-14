@@ -1692,14 +1692,14 @@ ul.p_n-list li a:hover{
 }
 .article-grid-right h4{
   font-size: 17px;
-  color: #898888;
+  color: #FFF;
   margin: 0;
   line-height: 1.5em;
 }
 .article-grid-right p{
 	font-size: 14px;
 	margin: 0.5em 0;
-	color: #B3B3B3;
+	color: #FFF;
 	line-height: 1.8em;
 }
 .article-grid-middle{
@@ -1758,7 +1758,7 @@ font-size: 23px;
   font-size: 22px;
   margin: 0 0 1em 0;
   padding: 0;
-  color: #868686;
+  color: #FFF;
 }
 .table-address ul{
 	margin:0;
@@ -1774,11 +1774,11 @@ font-size: 23px;
   font-size: 16px;
   margin: 0 0 1em 0;
   padding: 0;
-  color: #B3B3B3;
+  color: #FFF;
 }
 .table-result p{
   font-size: 14px;
-  color: #B3B3B3;
+  color: #FFF;
   margin: 0;
 }
 .table-result p span{
