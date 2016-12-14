@@ -9,15 +9,16 @@ html,body {
 	font-family: 'Arimo-Regular';
 	background:#FFF;
 	font-size:100%;
+	background-image: url(images/fondo.jpg);
 }
-@font-face {
+/*@font-face {
    font-family: 'Arimo-Regular';
    src: url(../fonts/Arimo-Regular.ttf)format('truetype');
 }
 @font-face {
    font-family: 'PoiretOne-Regular';
    src: url(../fonts/PoiretOne-Regular.ttf)format('truetype');
-}
+}*/
 /*-- header --*/
 .header-top{
   background: #3D3D3D;
