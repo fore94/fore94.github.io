@@ -150,7 +150,7 @@ html,body {
   padding: 1.5em 0;
 }
 .top-nav ul{
-	padding:0;
+	padding-left:150px;
 	margin:0;
 }
 .top-nav ul li{
@@ -1637,7 +1637,7 @@ ul.p_n-list li a:hover{
 }
 .response-text-left h5 a {
 	text-decoration: none;
-	color: #37393d;
+	color: #fff;
 }
 .response-text-left h5 a:hover{
 	text-decoration: none;
@@ -2674,7 +2674,9 @@ font-size: 23px;
 		font-size: 43px;
 	}
 }
-
 .video1{
 	text-align: center;
+}
+h7 {
+    color: #E67E22;
 }
