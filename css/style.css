@@ -7,7 +7,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 /*-- header --*/
 html,body {
 	font-family: 'Arimo-Regular';
-	background:#FFF;
+	background-image:url("fondo.jpg");
+    background-position:center;
 	font-size:100%;
 	background-image: url(images/fondo.jpg);
 }
@@ -83,10 +84,10 @@ html,body {
   font-family: 'PoiretOne-Regular';
   font-size: 4em;
   text-decoration: none;
-  color: #8d9293;
+  color: white;
 }
 .header-middle-logo a:hover{
-	color:#8d9293;
+	color:#E67E22;
 	text-decoration:none;
 }
 .header-middle-right{
@@ -144,7 +145,7 @@ html,body {
   color: #747474;
 }
 .top-nav{
-  background: #1CD5B5;
+  background: #E67E22;
   padding: 1.5em 0;
 }
 .top-nav ul{
@@ -183,24 +184,28 @@ display: inline-block;
   min-height: 640px;
   background-size: cover;
   position: relative;
+    border: 5px solid white;
 }
 .banner-img1{
   background: url(../images/codInicio.jpg) no-repeat 0px -24px;
   min-height: 640px;
   background-size: cover;
   position: relative;
+    border: 5px solid white;
 }
 .banner-img2{
   background: url(../images/battlefieldInicio.jpg) no-repeat 0px -24px;
   min-height: 640px;
   background-size: cover;
   position: relative;
+    border: 5px solid white;
 }
 .banner-img3{
   background: url(../images/doomInicio.jpg) no-repeat 0px -24px;
   min-height: 640px;
   background-size: cover;
   position: relative;
+    border: 5px solid white;
 }
 .banner-info {
 	position: absolute;
@@ -321,7 +326,7 @@ display: inline-block;
   font-weight: 700;
   padding-bottom: .5em;
   text-align: center;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .grid_4{
@@ -465,7 +470,7 @@ h1.t-button,h2.t-button,h3.t-button,h4.t-button,h5.t-button {
   margin: 0 0 1em 0;
   font-weight: 700;
   padding-bottom: .5em;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .opinion form input[type="text"] {
@@ -500,7 +505,7 @@ h1.t-button,h2.t-button,h3.t-button,h4.t-button,h5.t-button {
   -webkit-appearance: none;
 }
 .opinion form input[type="submit"]:hover {
-	color:#1CD5B5;
+	color:#E67E22;
 	transition: .5s all;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
@@ -691,7 +696,7 @@ ul.social-slide li i.mac{
   font-size: 38px;
   margin: 0;
   text-align: center;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .banner-bottom-grid span{
@@ -721,7 +726,7 @@ ul.social-slide li i.mac{
 }
 /*-- news --*/
 .news{
-	background: #CBCBCB;
+	background: #3E3E3E;
 	padding: 3em 0;
 }
 .news-info h3{
@@ -779,7 +784,7 @@ ul.social-slide li i.mac{
 .how-left h3{
   font-size: 36px;
   margin: 0 0 1em 0;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .how-left img{
@@ -811,7 +816,7 @@ ul.social-slide li i.mac{
 .how-right h3{
   font-size: 36px;
   margin: 0 0 1em 0;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .how-right-left{
@@ -860,7 +865,7 @@ ul.social-slide li i.mac{
 /*-- footer --*/
 .footer{
   padding: 1em 0;
-  background: #CBCBCB;
+  background: #3E3E3E;
 }
 .footer-nav {
   float: left;
@@ -952,7 +957,7 @@ ul.social-slide li i.mac{
 .footer-left p{
 	text-transform:uppercase;
 	font-size:15px;
-	color:#868686;
+	color:black;
 	margin:0;
 }
 .footer-left ul{
@@ -1024,7 +1029,7 @@ ul.social-slide li i.mac{
   font-weight: 700;
   padding-bottom: .5em;
   text-align: center;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .blog-left {
@@ -1054,7 +1059,7 @@ ul.social-slide li i.mac{
 	color: #555555;
 }
 .blog-left-left p a {
-  color: #1CD5B5;
+  color: #E67E22;
 }
 .blog-left-left a img{
 	width:100%;
@@ -1079,7 +1084,7 @@ ul.pagination {
   margin: 0 0 1em 0;
   font-weight: 700;
   padding-bottom: .5em;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .Categories ul{
@@ -1098,7 +1103,7 @@ font-size: 14px;
   padding-left: 2em;
 }
 .Categories ul li a:hover{
-  color: #1CD5B5;
+  color: #E67E22;
   text-decoration: none;
   transition: .5s all;
   -webkit-transition: .5s all;
@@ -1114,7 +1119,7 @@ font-size: 23px;
   margin: 0 0 1em 0;
   font-weight: 700;
   padding-bottom: .5em;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .comments-left{
@@ -1161,7 +1166,7 @@ font-size: 16px;
   font-weight: 700;
   padding-bottom: .5em;
   border-bottom: 1px solid #868686;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .about-left img{
@@ -1185,7 +1190,7 @@ font-size: 16px;
   font-weight: 700;
   padding-bottom: .5em;
   border-bottom: 1px solid #868686;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .about-middle-info h4{
@@ -1207,7 +1212,7 @@ font-size: 14px;
   font-weight: 700;
   padding-bottom: .5em;
   border-bottom: 1px solid #868686;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .about-right-info h5{
@@ -1237,7 +1242,7 @@ font-size: 14px;
   padding-left: 2em;
 }
 .about-right-info ul li a:hover{
-	color:#1CD5B5;
+	color:#E67E22;
 	text-decoration:none;
 }
 .about-grids {
@@ -1249,7 +1254,7 @@ font-size: 14px;
   font-weight: 700;
   padding-bottom: .5em;
   border-bottom: 1px solid #868686;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .staff-grid h5{
@@ -1276,7 +1281,7 @@ font-size: 14px;
   font-weight: 700;
   padding-bottom: .5em;
   text-align: center;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .view {
@@ -1328,7 +1333,7 @@ font-size: 14px;
 .view a.info {
   display: inline-block;
   text-decoration: none;
-  color: #1CD5B5;
+  color: #E67E22;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1468,7 +1473,7 @@ ul.p_n-list li a:hover{
   font-weight: 700;
   padding-bottom: .5em;
   text-align: center;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .map iframe {
@@ -1571,7 +1576,7 @@ ul.p_n-list li a:hover{
 .contact-info-grids form input[type="submit"] {
   border: none;
   outline: none;
-  color: #1CD5B5;
+  color: #E67E22;
   background: none;
   font-size: 18px;
   font-weight: 600;
@@ -1595,7 +1600,7 @@ ul.p_n-list li a:hover{
 	color: #555555;
 }
 .single-left-left p a {
-  color: #1CD5B5;
+  color: #E67E22;
 }
 .single-left-left img{
 	width:100%;
@@ -1620,7 +1625,7 @@ ul.p_n-list li a:hover{
   margin: 0 0 1em 0;
   font-weight: 700;
   padding-bottom: .5em;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .response-text h5 {
@@ -1660,7 +1665,7 @@ ul.p_n-list li a:hover{
   margin-right: 1em;
 }
 .response-text-right ul li a{
-  color: #1CD5B5;
+  color: #E67E22;
   font-size: 14px;
   font-weight: 400;
 }
@@ -1678,7 +1683,7 @@ ul.p_n-list li a:hover{
   font-weight: 700;
   padding-bottom: .5em;
   text-align: center;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .article-grid-left img{
@@ -1739,7 +1744,7 @@ font-size: 23px;
   font-weight: 700;
   padding-bottom: .5em;
   border-bottom: 1px solid #868686;
-  color: #1CD5B5;
+  color: #E67E22;
   font-family: 'PoiretOne-Regular';
 }
 .table-row {
@@ -1873,8 +1878,8 @@ font-size: 23px;
 	.top-nav ul.nav1 li {
 	  display: block;
 	  text-align: center;
-	  background: #FFFFFF;
-	  border-bottom: 1px dotted #1CD5B5;
+	  background: #E67E22;
+	  border-bottom: 1px dotted #E67E22;
 	  margin: 0;
 	  float: none;
 	}
