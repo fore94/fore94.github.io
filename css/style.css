@@ -168,7 +168,7 @@ display: inline-block;
   background: #00a78e;
 }
 .top-nav ul li a:hover{
-  background: #00a78e;
+  background: #D35400;
   transition: .5s all;
   -webkit-transition: .5s all;
   -moz-transition: .5s all;
@@ -176,7 +176,7 @@ display: inline-block;
   -ms-transition: .5s all;
 }
 .blue{
-  background: #00a78e;
+  background: #D35400;
   padding: .2em 0;
 }
 /*-- banner --*/
@@ -805,11 +805,11 @@ ul.social-slide li i.mac{
 .how-left h4{
   margin: 1em 0;
   font-size: 16px;
-  color: #868686;
+  color: #FFF;
   line-height: 1.8em;
 }	
 .how-left p{
-  color: #B3B3B3;
+  color: #FFF;
   font-size: 14px;
   margin: 0;
   line-height: 1.8em;
@@ -830,7 +830,7 @@ ul.social-slide li i.mac{
 .how-right-right h4{
   font-size: 20px;
   margin: 0;
-  color: #8B8B8B;
+  color: #FFF;
   text-transform: uppercase;
 }
 .how-right-right {
@@ -840,7 +840,7 @@ ul.social-slide li i.mac{
 }
 .how-right-right p{
   margin: 1em 0 0 0;
-  color: #B3B3B3;
+  color: #FFF;
   font-size: 14px;
   line-height: 1.8em;
 }
@@ -848,7 +848,7 @@ ul.social-slide li i.mac{
 	margin-top: 1em;
 }
 .more a{
-  color: #8B8B8B;
+  color: #FFF;
   text-decoration: none;
 }
 .more a:hover{
@@ -928,7 +928,7 @@ ul.social-slide li i.mac{
 }
 .f-address input[type="submit"] {
   color: #FFF;
-  background: #00a78e;
+  background: #E67E22;
   font-size: 14px;
   width: 30% !important;
   border: none;
@@ -937,7 +937,7 @@ ul.social-slide li i.mac{
   -webkit-appearance: none;
 }
 .f-address input[type="submit"]:hover{
-	background:#74797e;
+	background:#D35400;
 }
 .footer-bottom {
   padding-top: 2em;
@@ -1043,7 +1043,7 @@ ul.social-slide li i.mac{
 .blog-left-right a{
   font-size: 18px;
   margin: 0 0 .5em 0;
-  color: #868686;
+  color: #FFF;
   text-decoration: none;
 }
 .blog-left-right a:hover{
@@ -1068,7 +1068,7 @@ ul.social-slide li i.mac{
 .blog-left-right p{
   font-size: 14px;
   margin: 0.5em 0;
-  color: #B3B3B3;
+  color: #FFF;
   line-height: 1.8em;
 }
 ul.pagination {
