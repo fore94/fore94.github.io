@@ -701,7 +701,7 @@ ul.social-slide li i.mac{
   font-family: 'PoiretOne-Regular';
 }
 .banner-bottom-grid span{
-  color: #868686;
+  color: #FFF;
   font-size: 16px;
 }
 .banner-bottom-grid span label {
@@ -714,13 +714,13 @@ ul.social-slide li i.mac{
 .banner-bottom-grid h4{
   font-size: 20px;
   margin: .8em 0;
-  color: #868686;
+  color: #FFF;
 }
 .banner-bottom-grid p{
   font-size: 14px;
   line-height: 1.8em;
   margin: 0;
-  color: #B3B3B3;
+  color: #FFF;
 }
 .banner-bottom-grids{
   margin: 4em 0 0 0;
