@@ -2676,7 +2676,14 @@ font-size: 23px;
 }
 .video1{
 	text-align: center;
+	width="560";
+	height="315";
 }
 h7 {
     color: #E67E22;
+}
+
+iframe{
+	width="600";
+	height="500";
 }
